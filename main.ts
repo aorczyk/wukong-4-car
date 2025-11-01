@@ -49,10 +49,6 @@ basic.forever(function () {
                 control.inBackground(() => {
                     wuKong.setServoAngle(wuKong.ServoTypeList._360, wuKong.ServoList.S7, value2)
                 })
-
-                // wuKong.setServoAngle(wuKong.ServoTypeList._360, wuKong.ServoList.S0, value)
-                // wuKong.setServoAngle(wuKong.ServoTypeList._360, wuKong.ServoList.S1, value2)
-
             }
         }
     }
